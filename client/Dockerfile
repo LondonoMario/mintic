@@ -5,4 +5,4 @@ RUN npm ci
 RUN npm install
 
 EXPOSE 5000
-CMD ["npx", "serve", "build"]
+CMD ["npm", "run", "dev"]
