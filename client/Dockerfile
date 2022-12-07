@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 WORKDIR /APP
-COPY . .
+ADD . .
 RUN npm install
 RUN npm run build
 
